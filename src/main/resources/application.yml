@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: serviceb
+eureka:
+  client:
+    enabled: true
+    fetch-registry: true
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka
